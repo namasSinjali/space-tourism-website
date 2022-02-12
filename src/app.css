@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black: #0B0D17;
+    --light-blue: #D0D6F9;
+    --white: #FFFFFF;
+    --bellefair: 'Bellefair', serif;
+    --barlow: 'Barlow', sans-serif;
+    --barlow-condensed: 'Barlow Condensed', sans-serif;
+    --gutter: 1.5rem;
+
+    font-size: 16px;
+    color: white;
+}
+body {
+    background: var(--black);
+    font-family: var(--barlow);
+    color: var(--light-blue);
+}
+a{
+    font: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    line-height: 1.5625rem;
+    color: var(--light-blue);
+    font-size: 0.9375rem;
+}
+
+.heading1 {
+    text-transform: uppercase;
+    color: var(--white);
+    font : 5rem var(--bellefair);
+}
+.heading2 {
+    text-transform: uppercase;
+    color: var(--white);
+    font : 3.5rem var(--bellefair);
+}
+.heading3 {
+    text-transform: uppercase;
+    color: var(--white);
+    font : 1.5rem var(--bellefair);
+}
+.heading4 {
+    text-transform: uppercase;
+    color: var(--white);
+    opacity: 0.5;
+    font : 1rem var(--bellefair);
+}
+.heading5 {
+    text-transform: uppercase;
+    font : 1rem var(--barlow-condensed);
+    letter-spacing: 0.16875rem;
+}
+.subheading1 {
+    text-transform: uppercase;
+    font: 1.75rem var(--bellefair);
+}
+.subheading2 {
+    text-transform: uppercase;
+    font: 0.875rem var(--barlow-condensed);
+    letter-spacing: 0.1475rem;
+}
+
+
+@media (min-width: 33rem) {
+    :root {
+        --gutter: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    .heading1 {
+        font : 9.375rem var(--bellefair);
+    }
+    .heading2 {
+        font : 5rem var(--bellefair);
+    }
+    .heading3 {
+        font : 2.5rem var(--bellefair);
+    }
+    .heading4 {
+        font : 1.5rem var(--bellefair);
+    }
+    .heading5 {
+        font : 1.25rem var(--barlow-condensed);
+        letter-spacing: 0.21125rem;
+    }
+    .subheading1 {
+        font: 1.75rem var(--bellefair);
+    }
+    .subheading2 {
+        font: 1rem var(--barlow-condensed);
+        letter-spacing: 0.16875rem;
+    }
+}
+
+@media (min-width: 55rem) {
+    :root {
+        --gutter: clamp(2.5rem, 11vw, 10rem);
+    }
+    p {
+        font-size: 1.125rem;
+        line-height: 2rem;
+    }
+    .heading1 {
+        font : 9.375rem var(--bellefair);
+    }
+    .heading2 {
+        font : 6.25rem var(--bellefair);
+    }
+    .heading3 {
+        font : 3.5rem var(--bellefair);
+    }
+    .heading4 {
+        font : 2rem var(--bellefair);
+    }
+    .heading5 {
+        font : 1.75rem var(--barlow-condensed);
+        letter-spacing: 0.296875rem;
+    }
+    .subheading1 {
+        font: 1.75rem var(--bellefair);
+    }
+    .subheading2 {
+        font: 0.875rem var(--barlow-condensed);
+        letter-spacing: 0.146875rem;
+    }
+}
