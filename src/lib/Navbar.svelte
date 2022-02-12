@@ -102,6 +102,7 @@
     }
     .nav-toggle {
         position: relative;
+        z-index: 6;
         background: unset;
         border: none;
         outline: none;
