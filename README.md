@@ -2,7 +2,7 @@
 This project is a my solution of [Frontend Mentor](https://www.frontendmentor.io)'s Space tourism website challenge. If you want to know more about the challenge, [click here](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3/hub/space-tourism-multipage-website-QF65Vc5CE).
 
 ## Preview 👁
-Find this website on [...]().
+Find this website on [https://space-tourism-website-two-taupe.vercel.app/](https://space-tourism-website-two-taupe.vercel.app/).
 
 Or, run locally:
 
