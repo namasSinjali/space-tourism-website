@@ -52,6 +52,7 @@
         position: fixed;
         top: 0;
         right: 0;
+        z-index: 5;
 
         padding-top: 7rem;
         height: 100vh;
